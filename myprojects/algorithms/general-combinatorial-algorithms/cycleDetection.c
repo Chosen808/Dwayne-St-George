@@ -81,7 +81,7 @@ main ()
     initialize ();
 
     // Creating a linked list
-    insert (54);
+    insert (45);
     insert (1);
     insert (10);
     insert (123);
