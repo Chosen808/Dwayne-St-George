@@ -90,15 +90,15 @@ main ()
     /*
     Create loop in linked list. Set next pointer of last node to second node from head
     */
-    head->next->next->next->next->next = head;
+    head->next->next = head;
     
     printf ("head->data = %d \n", head->data);
     printf ("head->next->data = %d \n", head->next->data);
-    printf ("head->next->next->data = %d \n", head->next->next->data);
-    printf ("head->next->next->next->data = %d \n", head->next->next->next->data);
-    printf ("head->next->next->next->next->data = %d \n", head->next->next->next->next->data);
-    printf ("head->next->next->next->next->next->data = %d \n", head->next->next->next->next->next->data);
-    printf ("head->next->next->next->next->next->next->data = %d \n", head->next->next->next->next->next->next->data);
+    //printf ("head->next->next->data = %d \n", head->next->next->data);
+    //printf ("head->next->next->next->data = %d \n", head->next->next->next->data);
+    //printf ("head->next->next->next->next->data = %d \n", head->next->next->next->next->data);
+    //printf ("head->next->next->next->next->next->data = %d \n", head->next->next->next->next->next->data);
+    //printf ("head->next->next->next->next->next->next->data = %d \n", head->next->next->next->next->next->next->data);
 
     findloop (head);
 
@@ -107,7 +107,7 @@ main ()
     findloop (head);
 
     printf ("Head->next->next = head->next %p %p \n", head->next->next = head->next, __builtin_frame_address(0));
-    printf ("head->next->next->next = %p %p \n", head->next->next->next, __builtin_frame_address(0));
+    printf ("head->next->next->next = %p %p \n", &head->next->next->next->data, __builtin_frame_address(0));
 
     findloop (head);
 
