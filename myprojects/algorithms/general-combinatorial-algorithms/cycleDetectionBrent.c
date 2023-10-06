@@ -1,3 +1,32 @@
+/*
+Linked List
+
+Richard P. Brent described an alternative cycle detection algorithm that, like the tortoise 
+and hare algorithm, requires only two pointers into the sequence.[8] However, it is based on 
+a different principle: searching for the smallest power of two 2i that is larger than both λ 
+and μ. For i = 0, 1, 2, ..., the algorithm compares x2i−1 with each subsequent sequence value 
+up to the next power of two, stopping when it finds a match. It has two advantages compared 
+to the tortoise and hare algorithm: it finds the correct length λ of the cycle directly, 
+rather than needing to search for it in a subsequent stage, and its steps involve only one 
+evaluation of f rather than three.
+
+Brent’s cycle detection algorithm is similar to floyd’s algorithm as it also uses two pointer 
+technique. But there is some difference in their approaches. Here we make one pointer 
+stationary till every iteration and teleport it to other pointer at every power of two. The 
+start of the cycle is determined by the smallest power of two at which they meet. This 
+improves upon the constant factor of Floyd’s algorithm by reducing the number of calls. 
+ 
+
+Move fast pointer (or second_pointer) in powers of 2 until we find a loop. After every power, 
+we reset slow pointer (or first_pointer) to previous value of second pointer. Reset length 
+to 0 after every  power.
+The condition for loop testing is first_pointer and second_pointer become same. And loop is 
+not present if second_pointer becomes NULL.
+When we come out of loop, we have length of loop.
+We reset first_pointer to head and second_pointer to node at position head + length.
+Now we move both pointers one by one to find beginning of loop.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

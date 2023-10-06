@@ -1,4 +1,6 @@
 /*
+Linked List
+
 Floyd's cycle-finding algorithm is a pointer algorithm that uses only two pointers, 
 which move through the sequence at different speeds. It is also called the "tortoise 
 and the hare algorithm", alluding to Aesop's fable of The Tortoise and the Hare.
