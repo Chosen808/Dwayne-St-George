@@ -108,9 +108,11 @@ main ()
     head->next->next->next->next = newNode (10);
 
     // Create a loop for testing
-    head->next->next->next->next->next = head->next->next;
+    head->next->next->next->next->next = head;
 
     struct node_t *res = detectCycle (head);
+
+    printf ("head->next->next->data = %d \n", head->next->next = head->next->data);
 
     if (res == NULL)
     {
