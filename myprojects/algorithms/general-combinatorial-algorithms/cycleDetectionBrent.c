@@ -13,7 +13,7 @@ struct node_t
 This function detects loop in the list. If a loop was there in the list then it returns, the
 first node of the loop otherwise it returns NULL
 */
-struct node_t detectCycle (struct node_t *head)
+struct node_t *detectCycle (struct node_t *head)
 {
     // if head is null then no loop
     if (head == NULL)
@@ -87,7 +87,7 @@ struct node_t detectCycle (struct node_t *head)
   return firstPointer;
 }
 
-struct node_t newNode (int key)
+struct node_t *newNode (int key)
 {
     struct node_t *temp = (struct node_t*) malloc (sizeof (struct node_t));
 
