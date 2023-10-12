@@ -44,6 +44,16 @@ void engage(int man, int woman)
         printf ("%4s dumps %4s \n", name[woman], name[man]);
     }
 }
+
+void dump (int woman, int man)
+{
+    pairs[man] = pairs[woman] = clown;
+
+    if (verbose)
+    {
+        printf ("%4s dumps %4s \n", name[woman], name[man]);
+    }
+}
 /*
 how high this person ranks that: Lower is more preferred
 */
@@ -135,7 +145,7 @@ main ()
     {
         unengaged = 0;
 
-        for (i = abe; i <= jon; i+)
+        for (i = abe; i <= jon; i++)
         {
             /* 
             for (i = abi; i <=jan; i++)
