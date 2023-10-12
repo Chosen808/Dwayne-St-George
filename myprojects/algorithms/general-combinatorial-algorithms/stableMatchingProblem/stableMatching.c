@@ -1,3 +1,14 @@
+/*
+This is a C Program to solve a matching problem. Given N men and N women, where each person 
+has ranked all members of the opposite sex in order of preference, marry the men and women 
+together such that there are no two people of opposite sex who would both rather have each 
+other than their current partners. If there are no such people, all the marriages are 
+“stable”.
+Here is source code of the C Program to Solve a Matching Problem for a Given Specific Case. 
+The C program is successfully compiled and run on a Linux system. The program output is also 
+shown below.
+*/
+
 #include <stdio.h>
 
 int verbose = 0;
