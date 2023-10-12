@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 enum 
 {
     ab,cd, ef, gh, ij, kl, mn, op, qr, st
