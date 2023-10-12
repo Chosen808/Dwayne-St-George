@@ -15,6 +15,9 @@ char fad[2][10] = {{"test"}, {"Help"}};
 
 main ()
 {
+    /*
+    This processes the integers inside of the 2 dimensional int array
+    */
     for (int i = 0, k = 4; k > -1; k--)
     {
         printf ("arr[%d][%d] = %d \n", i, k, arr[i][k]);
@@ -41,8 +44,8 @@ main ()
         printf ("fad = %s \n", fad[i]);
     }
 
-    printf ("fad[0][3] = %c \n", fad[0][3]);
-    printf ("&fad[0][3] = %p \n", &fad[0][3]);
+    printf ("fad[0][3] = %c \n", fad[0][3]);    // finding what is in row 0, column 3
+    printf ("&fad[0][3] = %p \n", &fad[0][3]);  // finding the location of row 0, column 3
 
     return 0;
 }
