@@ -42,7 +42,7 @@ main ()
     }
 
     printf ("fad[0][3] = %c \n", fad[0][3]);
-    printf ("fad[0][3] = %p \n", &fad[0][3]);
+    printf ("&fad[0][3] = %p \n", &fad[0][3]);
 
     return 0;
 }
