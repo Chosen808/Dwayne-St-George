@@ -16,6 +16,7 @@ remaining. This will be the sorted list.
 */
 
 #include <stdio.h>
+#include <time.h>
 
 #define SIZE 100000
 
@@ -90,7 +91,9 @@ two halves by comparing each element in turn and copying the smaller element int
 array. Finally, it copies the remaining elements from each half into the temporary array*/
 void mergeSort (int arr[], int l, int r)
 {
-    //r = r - 1;
+    // Calculate how long the algorithm takes to run
+    clock_t g = clock ();
+    clock_t d;
 
     if (l < r)
     {
@@ -104,11 +107,23 @@ void mergeSort (int arr[], int l, int r)
         // merge the sorted halves
         merge (arr, l, m, r);
     }
+
+    d = clock () - g;   // this calculate the difference between end time and start time
+
+    int msec = d * 1000 / CLOCKS_PER_SEC;   // this will calculate milliseconds
+
+    printf ("TIME TAKE FUNC: %d sec %d mil \n", msec / 1000, msec % 1000);  // this will print the time
 }
 
 
 main ()
 {
+    // Calculate the time the software take to run
+    clock_t start = clock ();
+    clock_t diff;
+
+    printf ("CLOCK = %ld \n", clock ());    // print the start time of the clock
+
     int size = 0;
     int arr[SIZE];
 
@@ -143,6 +158,12 @@ main ()
     {
         printf ("arr[%d] = %d : SORTED \n", i, arr[i]);
     }
+
+    diff = clock () - start;    // this is will calculate the difference between end time and start time
+
+    int msec = diff * 1000 / CLOCKS_PER_SEC;    // this will milliseconds
+
+    printf ("TIMER : %d secs %d mil \n", msec / 1000, msec % 1000); // the time will be printed here
 
     return 0;
 }

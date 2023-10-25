@@ -29,6 +29,9 @@ insertion sort.[2]
 */
 
 #include <stdio.h>
+#include <time.h>
+
+#define SIZE 100000
 
 /*
 This is the insertion sort function. It takes an array int arr[] and size int size as input
@@ -40,6 +43,9 @@ for the swapped element.
 */
 void insertionSort (int arr[], int size)
 {
+    clock_t start = clock ();
+    clock_t diff;
+    
     int i, key, j;
 
     for (i = 0; i < size; i++)
@@ -55,25 +61,36 @@ void insertionSort (int arr[], int size)
 
         arr[j + 1] = key;   // values are swapped here
     }
+
+    diff = clock () - start;
+
+    int msec = diff * 1000 / CLOCKS_PER_SEC;
+
+    printf ("\nTIMER : %d sec %d mil \n", msec / 1000, msec % 1000);
 }
 
 
 main ()
 {
-    int arr[5];
+    clock_t start = clock ();
+    clock_t diff;
 
-    printf ("Please enter some numbers: \n");
+    int size = 0;
+    int arr[SIZE];
+
+    printf ("Please enter how many numbers: \n");
+    scanf ("%d", &size);
 
     // The array will be initialized here
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < size; i++)
     {
         printf ("Please enter number %d ", i);
         scanf ("%d", &arr[i]);
 
         // The array will printed here
-        if (i == 4)
+        if (i == size -1)
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < size; i++)
             {
                 printf ("arr[%d] = %d \n", i, arr[i]);
             }
@@ -81,15 +98,21 @@ main ()
     
     }
 
-    insertionSort (arr, 5); // The values of the array will be sorted here
+    insertionSort (arr, 10); // The values of the array will be sorted here
 
     puts ("\n\n");
 
     // The sorted array will be printed here
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < size; i++)
     {
         printf ("arr[%d] = %d: SORTED \n", i, arr[i]);
     }
+
+    diff = clock () - start;
+
+    int msec = diff * 1000 / CLOCKS_PER_SEC;
+
+    printf ("\nTIMER : %d sec %d mil \n", msec / 1000, msec % 1000);
 
     return 0;
 }
