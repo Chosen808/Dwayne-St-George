@@ -13,6 +13,8 @@ Conceptually, a merge sort works as follows:
 is considered sorted).
 * Repeatedly merge sublists to produce new sorted sublists until there is only one sublist 
 remaining. This will be the sorted list.
+
+This is a Standard Merge Sort Algorithm
 */
 
 #include <stdio.h>
