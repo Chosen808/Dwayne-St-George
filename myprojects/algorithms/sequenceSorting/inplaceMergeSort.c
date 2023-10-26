@@ -8,9 +8,9 @@
 Merge two subarrays of arr[]. First subarray os arr[l..m] and second subarray is 
 arr[m + l..r]. Inplace implementation
 */
-void merge (long arr[], long start, long mid, long end)
+void merge (long long arr[], long long start, long long mid, long long end)
 {
-    long start2 = mid + 1;
+    long long start2 = mid + 1;
 
     // if the direct merge is already sorted
     if (arr[mid] <= arr[start2])
@@ -29,8 +29,8 @@ void merge (long arr[], long start, long mid, long end)
 
         else
         {
-            long value = arr[start2];
-            long index = start2;
+            long long value = arr[start2];
+            long long index = start2;
 
             //shift all the element between element 1, element 2, right by 1
             while (index != start)
@@ -51,7 +51,7 @@ void merge (long arr[], long start, long mid, long end)
 }
 
 //l is for left index and r is right index of the subarray of arr to be sorted
-void mergeSort (long arr[],long l, long r)
+void mergeSort (long long arr[],long long l, long long r)
 {
     clock_t START = clock ();
     clock_t DIFF;
@@ -59,7 +59,7 @@ void mergeSort (long arr[],long l, long r)
     if (l < r)
     {
         // same as (l + r) / 2, but avoids overflow for large l and r
-        long m = l + (r - l) / 2;
+        long long m = l + (r - l) / 2;
 
         // sort first and second halves
         mergeSort (arr, l, m);
@@ -76,23 +76,23 @@ void mergeSort (long arr[],long l, long r)
 }
 
 //UTILITY FUNCTIONS - functions to point an array
-void printArray (long A[], long size)
+void printArray (long long A[], long long size)
 {
-    long i;
+    long long i;
 
     for (i = 0; i < size; i++)
     {
-        printf ("arr[%ld] = %ld : SORTED \n", i, A[i]);
+        printf ("arr[%lld] = %lld : SORTED \n", i, A[i]);
     }
 
     printf ("\n");
 }
 
-void arrayRead (FILE *in, long arr[], long *size)
+void arrayRead (FILE *in, long long arr[], long long *size)
 {
     *size = 0;
 
-    while (fscanf (in, "%ld", &arr[*size]) == 1)
+    while (fscanf (in, "%lld", &arr[*size]) == 1)
     {
         (*size)++;
     }
@@ -109,8 +109,8 @@ main (int argc, char *argv[])
     clock_t START = clock ();
     clock_t DIFF;
 
-    long size = 0;
-    long arr[SIZE];
+    long long size = 0;
+    long long arr[SIZE];
     char opt[5];
     char select[4][4] = {"yes", "Yes", "y", "Y"};
     int q;
@@ -129,18 +129,18 @@ main (int argc, char *argv[])
             if (q == 0)
             {
                 printf ("Please enter the number of elements: ");
-                scanf ("%ld", &size);
+                scanf ("%lld", &size);
 
-                for (long i = 0; i < size; i++)
+                for (long long i = 0; i < size; i++)
                 {
-                    printf ("Enter element %ld \n", i);
-                    scanf ("%ld", &arr[i]);
+                    printf ("Enter element %lld \n", i);
+                    scanf ("%lld", &arr[i]);
 
                     if (i == size - 1)
                     {
-                        for (long i = 0; i < size; i++)
+                        for (long long i = 0; i < size; i++)
                         {
-                            printf ("arr[%ld] = %ld \n", i, arr[i]);
+                            printf ("arr[%lld] = %lld \n", i, arr[i]);
                         }
                     }
                 }
