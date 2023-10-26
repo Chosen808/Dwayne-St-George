@@ -1,3 +1,8 @@
+/*
+Thank You Lord Jesus for building this algorithm
+
+*/
+
 #include <stdio.h>
 #include <time.h>
 #include <string.h>
@@ -51,7 +56,7 @@ void merge (long long arr[], long long start, long long mid, long long end)
 }
 
 //l is for left index and r is right index of the subarray of arr to be sorted
-void mergeSort (long long arr[],long long l, long long r)
+void mergeSort (long long arr[],long long l, long long r, int timer)
 {
     clock_t START = clock ();
     clock_t DIFF;
@@ -62,8 +67,8 @@ void mergeSort (long long arr[],long long l, long long r)
         long long m = l + (r - l) / 2;
 
         // sort first and second halves
-        mergeSort (arr, l, m);
-        mergeSort (arr, m + 1, r);
+        mergeSort (arr, l, m, timer);
+        mergeSort (arr, m + 1, r, timer);
 
         merge (arr, l, m, r);
     }
@@ -72,7 +77,7 @@ void mergeSort (long long arr[],long long l, long long r)
 
     int msec = DIFF * 1000 / CLOCKS_PER_SEC;
 
-    printf ("TIMER: %d sec %d mil \n", msec / 1000, msec % 1000);
+    printf ("TIMER: %d mins %d sec %d mil \n", (msec / 1000) / 60,(msec / 1000) % 60, msec % 1000);
 }
 
 //UTILITY FUNCTIONS - functions to point an array
@@ -114,6 +119,7 @@ main (int argc, char *argv[])
     char opt[5];
     char select[4][4] = {"yes", "Yes", "y", "Y"};
     int q;
+    int timer;
 
     if (argc != 2)
     {
@@ -158,17 +164,19 @@ main (int argc, char *argv[])
 
     puts ("\n");
 
-    mergeSort (arr, 0, size - 1);
+    mergeSort (arr, 0, size - 1, timer);
 
     puts ("\n");
 
     printArray (arr, size);
 
+    printf ("ALGORITHM TIMER: %d mins %d sec %d mil \n", (timer / 1000) / 60, (timer / 1000) % 60, timer % 1000);
+
     DIFF = clock () - START;
 
     int msec = DIFF * 1000 / CLOCKS_PER_SEC;
 
-    printf ("TIMER: %d sec %d sec \n", msec / 1000, msec % 1000);
+    printf ("ALL TIMER: %d mins %d sec %d mil \n", (msec / 1000) / 60, (msec / 1000) % 60 ,msec % 1000);
 
     return 0;
 }
