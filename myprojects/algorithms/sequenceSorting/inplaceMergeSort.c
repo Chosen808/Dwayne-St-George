@@ -144,20 +144,17 @@ main (int argc, char *argv[])
                         }
                     }
                 }
-
-                goto next; 
             }
 
         }
     }
 
-    else if (argc == 2)
+    if (argc == 2)
     {
         in = fopen (argv[1], "r+");
-    }
 
-    next:
         arrayRead (in, arr, &size);
+    }
 
     puts ("\n");
 
