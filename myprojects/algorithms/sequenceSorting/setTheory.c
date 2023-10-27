@@ -20,18 +20,51 @@ int factor (int fac, int arr[], int size, int *count)
     ++*count;
 }
 
-int commonFac (int arr1[], int arr2[], int aCount, int bCount)
+int commonFac (int arr1[], int arr2[], int common[], int aCount, int bCount, int *size)
 {
-    int count;
+    int count, j = 0, k =0;
 
     if (aCount < bCount)
     {
-        count = bCount - aCount;
+        count = aCount;
     }
 
     else if (aCount > bCount)
     {
-        count = aCount - bCount;
+        count = bCount;
+    }
+
+    else if (aCount == bCount)
+    {
+        count = aCount;
+    }
+
+    for (int i = 0; i < count;)
+    {
+        if (arr1[j] != arr2[i])
+        {
+            ++i;
+        }
+
+        else if (arr1[j] == arr2[i])
+        {
+            if (arr1[j] = arr2[i])
+            {
+                common[k] = arr1[j];
+
+                ++k;
+            }
+
+            ++j;
+        }
+
+        if (i == count && j != count)
+        {
+            i = 0;
+            ++j;
+        }
+
+        *size = k;
     }
 }
 
@@ -42,7 +75,9 @@ main ()
     int b = 0;
     int arr1[SIZE];
     int arr2[SIZE];
+    int comm[SIZE];
     int aCount = 0, bCount = 0;
+    int size = 0;
 
     printf ("Please enter two numbers to factor: \n");
     scanf ("%d", &a);
@@ -65,6 +100,15 @@ main ()
     {
         printf ("arr2[%d] = %d \n", i, arr2[i]);
     }
+
+    commonFac (arr1, arr2, comm, aCount, bCount, &size);
+
+    for (int i = 0; i < size; i++)
+    {
+        printf ("comm[%d] = %d \n", i, comm[i]);
+    }
+
+
 
     return 0;
 }
