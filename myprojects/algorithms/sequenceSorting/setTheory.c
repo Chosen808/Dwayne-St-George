@@ -68,9 +68,9 @@ int commonFac (int arr1[], int arr2[], int common[], int aCount, int bCount, int
     }
 }
 
-int factorOf (int arr1[], int arr2[], int facA[], int facB[], int aCount, int bCount, int *size)
+int factorOf (int arr1[], int arr2[], int facA[], int facB[], int aCount, int bCount, int *sizeFacA, int *sizeFacB)
 {
-    int count, j = 0, l = 0;
+    int count, j = 0, k = 0;
 
     if (aCount < bCount)
     {
@@ -82,27 +82,107 @@ int factorOf (int arr1[], int arr2[], int facA[], int facB[], int aCount, int bC
         count = aCount;
     }
 
-    for (int i = 0; i < count;)
+    else if (aCount == bCount)
     {
-        if (arr1[j] != arr2[i])
+        count = aCount;
+    }
+
+   for (int i = 0; i < count;)
+   {
+        if (arr1[j] == arr2[i])
         {
-            if (arr1[j] != arr2[i])
-            {
-                facA[l] = arr1[j];
-                facB[l] = arr2[i];
-
-                ++l;
-            }
-
             ++i;
-        }
-
-        else if (arr1[j] == arr2[i])
-        {
             ++j;
         }
 
-        *size = l;
+        else if (arr1[j] != arr2[i])
+        {
+            ++i;
+
+            if (i == count && arr1[j] != arr2[i])
+            {
+                facA[k] = arr1[j];
+
+                ++k;
+            }
+        }
+
+        if (i == count && j != count)
+        {
+            i = 0;
+            ++j;
+        }
+
+        *sizeFacA = k;
+    }
+
+    if (count == aCount)
+    {
+        count = bCount;
+    }
+
+    else if (count == bCount)
+    {
+        count = aCount;
+    }
+
+    j = 0;
+    k = 0;
+
+    for (int i = 0; i < count;)
+    {
+        if (arr2[j] == arr1[i])
+        {
+            ++i;
+            ++j;
+        }
+
+        else if (arr2[j] != arr1[i])
+        {
+            ++i;
+
+            if (i == count && arr2[j] != arr1[i])
+            {
+                facB[k] = arr2[j];
+
+                ++k;
+            }
+        }
+
+        if (i == count && j != count + 1)
+        {
+            i = 0;
+            ++j;
+        }
+
+        *sizeFacB = k;
+    }
+
+    
+    
+}
+
+int printer (int arr1[], int arr2[], int comm[], int facA[], int facB[], int aCount, int bCount, int *sizeComm, int *sizeFacA, int *sizefacB, int sizeA, int sizeB)
+{
+    int i = 0, j = 0;
+    printf ("\nSET THEORY \n");
+
+    printf ("%10s%d%10s%d%10s%10s%d%10s%d \n", "FACTORS ", sizeA, "FACTORS ", sizeB, "COMMON FACTORS", "FACTORS ", sizeA, "FACTORS ", sizeB);
+
+    /*
+    for (int i = 0, j = 0, k = 0, l = 0, m = 0; i < aCount, j < bCount, k < sizeComm, l < sizeFacA, m < sizefacB; i++, j++, k++, l++, m++)
+    {
+        printf ("%10d%10d%10d%10d%10d \n", arr1[i], arr2[j], comm[k], facA[l], facB[m]);
+    }*/
+
+    for (int i = 0; i < aCount; i++)
+    {
+        for (j = 0; j < bCount; j++);
+        {
+
+            printf ("i = %d s = %d", i, j);
+            printf ("%10d%10d \n", arr1[i], arr2[j]);
+        }
     }
 }
 
@@ -115,9 +195,11 @@ main ()
     int arr2[SIZE];
     int comm[SIZE];
     int aCount = 0, bCount = 0;
-    int size = 0;
-    int size2 = 0;
-    int fac1[SIZE], fac2[SIZE];
+    int sizeComm = 0;
+    int sizeFacA = 0;
+    int sizeFacB = 0;
+    int facA[SIZE];
+    int facB[SIZE];
 
     printf ("Please enter two numbers to factor: \n");
     scanf ("%d", &a);
@@ -141,20 +223,29 @@ main ()
         printf ("arr2[%d] = %d \n", i, arr2[i]);
     }
 
-    commonFac (arr1, arr2, comm, aCount, bCount, &size);
-    factorOf (arr1, arr2, fac1, fac2, aCount, bCount, &size2);
+    puts ("\n");
 
-    for (int i = 0; i < size; i++)
+    commonFac (arr1, arr2, comm, aCount, bCount, &sizeComm);
+    factorOf (arr1, arr2, facA, facB, aCount, bCount, &sizeFacA, &sizeFacB);
+
+    puts ("\n");
+
+    for (int i = 0; i < sizeComm; i++)
     {
         printf ("comm[%d] = %d \n", i, comm[i]);
     }
 
-    for (int i = 0; i < size2; i++)
+    for (int i = 0; i < sizeFacA; i++)
     {
-        printf ("fac1[%d] = %d \n", i, fac1[i]);
+        printf ("facA[%d] = %d \n", i, facA[i]);
     }
 
+    for (int i = 0; i < sizeFacB; i++)
+    {
+        printf ("facB[%d] = %d \n", i, facB[i]);
+    }
 
+    printer (arr1, arr2, comm, facA, facB, aCount, bCount, sizeComm, sizeFacA, sizeFacB, sizeA, sizeB);
 
     return 0;
 }
