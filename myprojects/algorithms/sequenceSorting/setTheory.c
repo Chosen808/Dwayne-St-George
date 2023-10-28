@@ -1,3 +1,9 @@
+/*
+Thank You Lord Jesus for this algorithm
+
+v 1.0
+*/
+
 #include <stdio.h>
 
 #define SIZE 10000
