@@ -9,23 +9,103 @@ struct myData
 
 main ()
 {
+    char restart[1];
+
+    again:
     run();
+
+    printf ("\nIf you want to play again then press 1: \n");
+    scanf ("%s", restart);
+
+    if (restart == '1')
+    {
+        goto again;
+    }
+
+    else 
+    {
+        exit (0);
+    }
 
     return 0;
 }
 
 void run ()
 {
-    int count;
+    int count = 0;
     struct myData info;
     char symbol[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
 
     display (symbol);
 
+    again:
     info = inputValue_t (symbol, count);
     symbol[info.i] = info.ch;
 
+    system ("cls");
+
     display (symbol);
+
+    if (check (symbol, info.ch, count) == 1)
+    {
+        
+    }
+
+    else 
+    {
+        count++; 
+
+        goto again;
+    }
+}
+
+int check  (char sym[], char ch[], int count)
+{
+    for (int i = 0; i < 3; i++)
+    {
+        if (sym[i] == ch && sym[i + 1] == ch && sym[i + 2] == ch)
+        {
+            printf ("The Winner is: %c \n", ch);
+
+            return 1;
+        }
+    }
+
+    for (int i = 0; i < 3; i++)
+    {
+        if (sym[i] == ch && sym[i + 3] == ch && sym[i + 6] == ch)
+        {
+            printf ("The Winner is: %c \n", ch);
+
+            return 1;
+        }
+
+        if (sym[0] == ch && sym[4] == ch && sym[8] == ch)
+        {
+            printf ("The Winner is: %c \n", ch);
+
+            return 1;
+        }
+
+        else if (sym[2] = ch && sym[4] == ch && sym[6] == ch)
+        {
+            printf ("The Winner is: %c \n", ch);
+
+            return 1;
+        }
+
+        else if (count == 8)
+        {
+            printf ("The Game is Drawn \n");
+
+            return 1;
+        }
+
+        else 
+        {
+            return 0;
+        }
+    }
 }
 
 struct myData inputValue_t (char sym[], int count)
@@ -45,6 +125,8 @@ struct myData inputValue_t (char sym[], int count)
     }
 
     scanf ("%s", value);
+
+    printf ("Count = %d \n", count);
 
     for (int i = 0; i < 9; i++)
     {
