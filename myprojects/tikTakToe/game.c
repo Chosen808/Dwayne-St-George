@@ -4,7 +4,7 @@ struct myData
 {
     int i;
     char ch;
-} inputValue_t;
+} inputValue_t ();
 
 
 main ()
@@ -22,13 +22,13 @@ void run ()
 
     display (symbol);
 
-    info = inputValue (symbol, count);
+    info = inputValue_t (symbol, count);
     symbol[info.i] = info.ch;
 
     display (symbol);
 }
 
-struct myData inputValue (char sym[], int count)
+struct myData inputValue_t (char sym[], int count)
 {
     char value[1];
     struct myData info;
@@ -36,19 +36,19 @@ struct myData inputValue (char sym[], int count)
     inputAgain:
     if (count % 2 == 0)
     {
-        printf ("\nEnter Your Choice: X");
+        printf ("\nEnter Your Choice: X ");
     }
 
     else 
     {
-        printf ("\nEnter Your Choice: O");
+        printf ("\nEnter Your Choice: O ");
     }
 
     scanf ("%s", value);
 
     for (int i = 0; i < 9; i++)
     {
-        if (value == sym[i])
+        if (*value == sym[i])
         {
             info.i = i;
 
@@ -67,7 +67,8 @@ struct myData inputValue (char sym[], int count)
 
         else 
         {
-            info.ch == "";
+            info.i = -1;
+            info.ch = "";
         }
     }
 
