@@ -128,6 +128,8 @@ struct myData inputValue_t (char sym[], int count)
 
     for (int i = 0; i < 9; i++)
     {
+        printf ("i = %d \n", i);
+
         if (*value == sym[i])
         {
             info_t.i = i;
@@ -148,7 +150,7 @@ struct myData inputValue_t (char sym[], int count)
         else 
         {
             info_t.i = -1;
-            info_t.ch = " ";
+            info_t.ch = "";
         }
     }
 
