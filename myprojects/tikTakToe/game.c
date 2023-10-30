@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 struct myData
@@ -6,6 +7,15 @@ struct myData
     int i;
     char ch;
 } inputValue_t ();
+
+void run ();
+
+int check (char sym[], char ch, int count);
+
+struct  myData inputValue_t (char sym[], int count);
+
+void display (char sym[]);
+
 
 
 main ()
@@ -20,6 +30,8 @@ main ()
 
     if (restart == '1')
     {
+        system ("cls");
+
         goto again;
     }
 
@@ -43,7 +55,7 @@ void run ()
     info = inputValue_t (symbol, count);
     symbol[info.i] = info.ch;
 
-    //system ("cls");
+    system ("cls");
 
     display (symbol);
 
@@ -60,9 +72,9 @@ void run ()
     }
 }
 
-int check  (char sym[], char ch[], int count)
+int check  (char sym[], char ch, int count)
 {
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 6; i+=3)    // for rows
     {
         if (sym[i] == ch && sym[i + 1] == ch && sym[i + 2] == ch)
         {
@@ -72,7 +84,7 @@ int check  (char sym[], char ch[], int count)
         }
     }
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 3; i++) // for columns
     {
         if (sym[i] == ch && sym[i + 3] == ch && sym[i + 6] == ch)
         {
@@ -81,7 +93,7 @@ int check  (char sym[], char ch[], int count)
             return 1;
         }
 
-        if (sym[0] == ch && sym[6] == ch && sym[8] == ch)
+        if (sym[0] == ch && sym[4] == ch && sym[8] == ch)
         {
             printf ("The Winner is: %c \n", ch);
 
@@ -129,9 +141,6 @@ struct myData inputValue_t (char sym[], int count)
 
     for (int i = 0; i < 9; i++)
     {
-        printf ("i = %d \n", i);
-        printf ("sym[%d] = %d \n", i, sym[i]);
-
         if (*value == sym[i])
         {
             info_t.i = i;
