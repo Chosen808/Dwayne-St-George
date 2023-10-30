@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 struct myData
 {
@@ -129,6 +130,8 @@ struct myData inputValue_t (char sym[], int count)
     for (int i = 0; i < 9; i++)
     {
         printf ("i = %d \n", i);
+
+        int comp;
 
         if (*value == sym[i])
         {
