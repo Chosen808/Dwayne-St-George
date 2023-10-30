@@ -42,7 +42,7 @@ void run ()
     info = inputValue_t (symbol, count);
     symbol[info.i] = info.ch;
 
-    system ("cls");
+    //system ("cls");
 
     display (symbol);
 
@@ -80,7 +80,7 @@ int check  (char sym[], char ch[], int count)
             return 1;
         }
 
-        if (sym[0] == ch && sym[4] == ch && sym[8] == ch)
+        if (sym[0] == ch && sym[6] == ch && sym[8] == ch)
         {
             printf ("The Winner is: %c \n", ch);
 
@@ -125,8 +125,6 @@ struct myData inputValue_t (char sym[], int count)
     }
 
     scanf ("%s", value);
-
-    printf ("Count = %d \n", count);
 
     for (int i = 0; i < 9; i++)
     {
