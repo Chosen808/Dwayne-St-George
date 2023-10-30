@@ -10,11 +10,11 @@ struct myData
 
 void run ();
 
-int check (char sym[], char ch, int count);
+int check (char sym[9], char ch, int count);
 
 struct  myData inputValue_t (char sym[], int count);
 
-void display (char sym[]);
+void display (char sym[9]);
 
 
 
@@ -72,7 +72,7 @@ void run ()
     }
 }
 
-int check  (char sym[], char ch, int count)
+int check  (char sym[9], char ch, int count)
 {
     for (int i = 0; i < 6; i+=3)    // for rows
     {
@@ -121,9 +121,9 @@ int check  (char sym[], char ch, int count)
     }
 }
 
-struct myData inputValue_t (char sym[], int count)
+struct myData inputValue_t (char sym[9], int count)
 {
-    char value[1];
+    char value;
     struct myData info_t;
 
     inputAgain:
@@ -137,11 +137,11 @@ struct myData inputValue_t (char sym[], int count)
         printf ("\nEnter Your Choice: O ");
     }
 
-    scanf ("%s", value);
+    scanf ("%s", &value);
 
     for (int i = 0; i < 9; i++)
     {
-        if (*value == sym[i])
+        if (value == sym[i])
         {
             info_t.i = i;
 
@@ -175,7 +175,7 @@ struct myData inputValue_t (char sym[], int count)
     return info_t;
 }
 
-void display (char sym[])
+void display (char sym[9])
 {
     printf ("\t\t\t\t    Tic Tac Toe \n\n");
     printf ("Players 1 Symbol: X \n");
