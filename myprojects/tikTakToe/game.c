@@ -31,7 +31,7 @@ void run ()
 struct myData inputValue_t (char sym[], int count)
 {
     char value[1];
-    struct myData info;
+    struct myData info_t;
 
     inputAgain:
     if (count % 2 == 0)
@@ -50,16 +50,16 @@ struct myData inputValue_t (char sym[], int count)
     {
         if (*value == sym[i])
         {
-            info.i = i;
+            info_t.i = i;
 
             if (count % 2 == 0)
             {
-                info.ch = "X";
+                info_t.ch = 'X';
             }
 
             else 
             {
-                info.ch = "O";
+                info_t.ch = 'O';
             }
 
             break;
@@ -67,19 +67,19 @@ struct myData inputValue_t (char sym[], int count)
 
         else 
         {
-            info.i = -1;
-            info.ch = "";
+            info_t.i = -1;
+            info_t.ch = " ";
         }
     }
 
-    if (info.i == -1)
+    if (info_t.i == -1)
     {
         printf ("\nInput is not valid \n");
 
         goto inputAgain;
     }
 
-    return info;
+    return info_t;
 }
 
 void display (char sym[])
