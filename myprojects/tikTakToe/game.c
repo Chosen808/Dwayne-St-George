@@ -12,7 +12,7 @@ void run ();
 
 int check (char sym[9], char ch, int count);
 
-struct  myData inputValue_t (char sym[], int count);
+struct  myData inputValue_t (char sym[9], int count);
 
 void display (char sym[9]);
 
@@ -20,17 +20,17 @@ void display (char sym[9]);
 
 main ()
 {
-    char restart[1];
+    char restart;
 
     again:
     run();
 
     printf ("\nIf you want to play again then press 1: \n");
-    scanf ("%s", restart);
+    scanf ("%s", &restart);
 
     if (restart == '1')
     {
-        system ("cls");
+        system ("clear");
 
         goto again;
     }
@@ -53,15 +53,18 @@ void run ()
 
     again:
     info = inputValue_t (symbol, count);
+
+    printf ("info.ch = %d", info.ch);
+
     symbol[info.i] = info.ch;
 
-    system ("cls");
+    system ("clear");
 
     display (symbol);
 
     if (check (symbol, info.ch, count) == 1)
     {
-        
+
     }
 
     else 
@@ -100,7 +103,7 @@ int check  (char sym[9], char ch, int count)
             return 1;
         }
 
-        else if (sym[2] = ch && sym[4] == ch && sym[6] == ch)
+        else if (sym[2] == ch && sym[4] == ch && sym[6] == ch)
         {
             printf ("The Winner is: %c \n", ch);
 
@@ -161,7 +164,7 @@ struct myData inputValue_t (char sym[9], int count)
         else 
         {
             info_t.i = -1;
-            info_t.ch = " ";
+            info_t.ch = ' ';
         }
     }
 
