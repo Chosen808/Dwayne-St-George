@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/Users/(808)/Documents/GitHub/Dwayne-St-George/myprojects/tikTakToe",
-      "program": "c:/Users/(808)/Documents/GitHub/Dwayne-St-George/myprojects/tikTakToe/build/Debug/outDebug",
+      "externalConsole": false,
+      "cwd": "/mnt/c/Users/(808)/Documents/GitHub/Dwayne-St-George/myprojects/tikTakToe",
+      "program": "/mnt/c/Users/(808)/Documents/GitHub/Dwayne-St-George/myprojects/tikTakToe/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

@@ -1,13 +1,24 @@
+/**
+ * Thank You Lord Jesus for the course You allowed me to be apart of to build this software
+ * 
+ * 
+ * This will built as part of the udemy course C Programming for Beginners
+ * 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
+// This is where data will be stored to index the grid numbers and X and O symbols to the gird
 struct myData
 {
-    int i;
-    char ch;
+    int i;  // i will index the number that is entered
+    char ch;    // This will assign characters to their chosen boxes
 } inputValue_t ();
 
+
+// Function prototypes
 void run ();
 
 int check (char sym[9], char ch, int count);
@@ -20,7 +31,7 @@ void display (char sym[9]);
 
 main ()
 {
-    char restart;
+    char restart;   // this will store to option to restart the game
 
     again:
     run();
@@ -28,6 +39,7 @@ main ()
     printf ("\nIf you want to play again then press 1: \n");
     scanf ("%s", &restart);
 
+    // This statement is executed if 1 is entered to restart the game
     if (restart == '1')
     {
         system ("clear");
@@ -35,6 +47,7 @@ main ()
         goto again;
     }
 
+    // If 1 is not entered any other key will exit the game
     else 
     {
         exit (0);
@@ -43,30 +56,32 @@ main ()
     return 0;
 }
 
+// This function will execute the game
 void run ()
 {
-    int count = 0;
-    struct myData info;
-    char symbol[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
+    int count = 0;  // This will store index for turn is available, X or O
+    struct myData info; // This data type will access the data stored in myData struct
+    char symbol[9] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'}; // This will store the numbers for the grid
 
-    display (symbol);
+    display (symbol);   // This will display the grid
 
     again:
-    info = inputValue_t (symbol, count);
+    info = inputValue_t (symbol, count);    // This will take input for which number has been entered for the grid
 
-    printf ("info.ch = %d", info.ch);
+    symbol[info.i] = info.ch;   // This will sawp the number with the corresponding character X or O that is selected
 
-    symbol[info.i] = info.ch;
+    system ("clear");   // Each turn will be cleared from the screen here
 
-    system ("clear");
+    display (symbol);   // This will display the grid and updated grid spaces
 
-    display (symbol);
-
+    // This will check to see if there is a winner between X or O
     if (check (symbol, info.ch, count) == 1)
     {
 
     }
 
+    /* If no winner if found count will increment to the the next option X or O and 
+    the game will keep playing*/
     else 
     {
         count++; 
@@ -75,6 +90,8 @@ void run ()
     }
 }
 
+/* This functions for a winner between X and O. Each statement is checking the 
+grid to determine if their is a line of X's or O's*/
 int check  (char sym[9], char ch, int count)
 {
     for (int i = 0; i < 6; i+=3)    // for rows
@@ -124,11 +141,14 @@ int check  (char sym[9], char ch, int count)
     }
 }
 
+/* This function takes input and passes it to the symbol[] array to select X or O 
+to the selected grid spot */
 struct myData inputValue_t (char sym[9], int count)
 {
-    char value;
-    struct myData info_t;
+    char value; // this variable will hold the entered number
+    struct myData info_t;   // this will pass info to the struct myData
 
+    // Checking is done here to see whether X or O turn is next
     inputAgain:
     if (count % 2 == 0)
     {
@@ -142,8 +162,11 @@ struct myData inputValue_t (char sym[9], int count)
 
     scanf ("%s", &value);
 
+    /* The value enter will be compared to the count to dtermine whether X or O is 
+    playing. It will then pass that letter to myData struct to the variable char ch*/
     for (int i = 0; i < 9; i++)
     {
+        // If value is equal to any of the symbols in symbol[] this statement will execute
         if (value == sym[i])
         {
             info_t.i = i;
@@ -160,14 +183,17 @@ struct myData inputValue_t (char sym[9], int count)
 
             break;
         }
-
+        
+        // If no matching values are found in symbol[] this statement will execute
         else 
         {
-            info_t.i = -1;
-            info_t.ch = ' ';
+            info_t.i = -1;  // i will deincrement to keep the current turn X or O
+            info_t.ch = ' '; // no charcter will be passed to char ch
         }
     }
 
+    /* If a number wich has been previously selected is entered or another character 
+    that is not an option is entered this statement will execute*/
     if (info_t.i == -1)
     {
         printf ("\nInput is not valid \n");
@@ -178,6 +204,7 @@ struct myData inputValue_t (char sym[9], int count)
     return info_t;
 }
 
+// This displays the tik tak toe grid
 void display (char sym[9])
 {
     printf ("\t\t\t\t    Tic Tac Toe \n\n");
