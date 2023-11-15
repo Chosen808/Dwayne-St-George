@@ -1,5 +1,5 @@
 # Dwayne-St-George
-This repository contains many well known algorithms and data structures to date.
+This repository contains many well known algorithms and data structures and executables to date.
 
 ## LICENSE
 MIT License
