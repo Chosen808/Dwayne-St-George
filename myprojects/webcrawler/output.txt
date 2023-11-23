@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script id="ad-entity-settings" type="application/json">{"responsive":false,"inline":false,"p13n":false}</script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="9ddc1f80-e4c3-40e2-bdba-f82fb607d7ee-test"></script>
+<script type="text/javascript">function OptanonWrapper() { }</script>
+<meta name="google-site-verification" content="xqwiqqZjisrF1CNic-MxejkwvUQtAI2wrmHlw4FsD9c" />
+<link rel="canonical" href="https://www.moveelectric.com/" />
+<link rel="shortlink" href="https://www.moveelectric.com/" />
+<meta name="description" content="Move Electric covers electric cars, motorbikes, scooters, bicycles and more, as well as exploring themes around electricity generation and electric lifestyles." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #0779BF} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab { color: #ffffff;} .eu-cookie-withdraw-tab { border-color: #ffffff;}</style>
+<meta property="fb:pages" content="16557034205" />
+<link rel="shortcut icon" href="/core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.moveelectric.com/node/11044" />
+<script src="/sites/default/files/google_tag/move_electric_main_gtm_container/google_tag.script.js?s3e7nn" defer></script>
+
+    <title>Move Electric</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_eo1es5ScCoTD2DFZySsrRchFLA6Pxw7o4JkQESq7q9I.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_KnmxRN70f3X0BdPPVjvRbAYLsRXTw4YKvo2o-yEIne8.css" />
+<link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_0ZFJq5rt2KLHynnwrUVVnjhV09bvh5ublBQiHhJW8u4.css" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_nCi3uQB4VLfMAIpbxzxP1N6XBGM-xeFBEaJbkGm80Vk.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Oxygen:300,300italic,400,700" />
+
+    <script src="/sites/default/files/js/js_LY_TBblFPOL_owfqu2o7Leh9ODQDAdHPh51vtkZyXRM.js"></script>
+<script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" async="async"></script>
+
+  </head>
+          
+      <body class="front_page role--anonymous no-sidebar">
+    <div id="skip">
+      <a href="#main-menu" class="visually-hidden focusable skip-link">
+        Skip to main navigation
+      </a>
+    </div>
+    
+        
+
+  <div id="ad-entity-BAn-6pDxbn0" class="ad-entity-container not-initialized" data-ad-entity="out_of_page" data-ad-entity-type="dfp" data-ad-entity-view="dfp_default" data-ad-entity-variant='["any"]' data-ad-entity-targeting='{"pos":"overlay1"}'><div id="google-dfp-dcbowcs00B8" class="google-dfp-ad dfp-default-view" data-dfp-network="8527" data-dfp-unit="moveelectric" data-dfp-out-of-page="true" data-dfp-sizes=''></div>
+</div>
+
+  <div id="ad-entity-utVrThCFjYE" class="ad-entity-container not-initialized" data-ad-entity="1x3" data-ad-entity-type="dfp" data-ad-entity-view="dfp_default" data-ad-entity-variant='["any"]' data-ad-entity-targeting='{"pos":"overlay2"}'><div id="google-dfp-3wB7HPcLml8" class="google-dfp-ad dfp-default-view" data-dfp-network="8527" data-dfp-unit="moveelectric" data-dfp-out-of-page="false" data-dfp-sizes='[[1,3]]'></div>
+</div>
+
+
+
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <!-- ______________________ HEADER _______________________ -->
+
+  <header id="header">
+    <div class="container">
+              <div id="header-region">
+            <div class="inner">
+    
+<div id="block-moveelectric-branding" class="block-system block-moveelectric-branding">
+  
+    
+        <a href="/" title="Home" rel="home" class="site-logo">
+      <img src="/themes/custom/moveelectric/images/move_electric_logo.png" alt="Home" />
+    </a>
+        <div class="site-name">
+      <a href="/" title="Home" rel="home">Move Electric</a>
+    </div>
+    </div>
+<div id="block-moveelectric-main-menu" class="block block-system block-moveelectric-main-menu block-menu navigation menu--main menu--hamburger">
+            
+  <h2 class="visually-hidden">Main navigation</h2>
+  
+
+    <a id="js-mobile-menu" href="javascript:void(0)" class="navigation-menu-button"><span class="burger"></span></a>
+  <nav role="navigation" aria-labelledby="" class="menu--navigation">
+          
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news" class="menu-link" data-drupal-link-system-path="news">Latest</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-cars" class="menu-link" title="e-Cars" data-drupal-link-system-path="taxonomy/term/5155">e-Cars</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-motorbikes" class="menu-link" title="e-Motorbikes" data-drupal-link-system-path="taxonomy/term/5154">e-Motorbikes</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-bikes" class="menu-link" title="e-Bikes" data-drupal-link-system-path="taxonomy/term/5153">e-Bikes</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-scooters" class="menu-link" title="e-Scooters" data-drupal-link-system-path="taxonomy/term/5152">e-Scooters</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-world" class="menu-link" title="e-World" data-drupal-link-system-path="taxonomy/term/5156">e-World</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="https://p.haymarket.com/moveelectricsignupform" class="menu-link">Newsletter</a>
+
+              </li>
+        </ul>
+  
+
+
+      </nav>
+</div>
+
+<div id="block-moveelectric-cscsearchblock" class="block-csc-search block-moveelectric-cscsearchblock">
+  
+    
+      <div class="block--inner-content">
+      <a href="/modal-search/modal/nojs" class="use-ajax button button--small" data-dialog-type="modal" data-dialog-options="{&quot;width&quot;:&quot;100%&quot;}">Search</a>
+    </div>
+  </div>
+<div class="search-block-form block block-search container-inline" data-drupal-selector="search-block-form" id="block-moveelectric-searchform" role="search">
+  
+    
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="19" maxlength="128" class="form-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+  </div>
+
+        </div>
+          </div>
+  </header><!-- /#header -->
+
+  
+  <!-- ______________________ MAIN _______________________ -->
+
+  <div id="main">
+      <div class="container"><div class="container-inner">
+
+      <section id="content">
+
+        <div id="content-header">
+
+          
+
+                      <div id="highlighted">  <div class="inner">
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+</div>
+          
+          
+
+          
+          
+          
+
+          
+          
+        </div><!-- /#content-header -->
+
+        <div id="content-area">
+            <div class="inner">
+    
+<div id="block-moveelectric-page-title" class="block-core block-moveelectric-page-title">
+  
+    
+      <div class="block--inner-content">
+      
+
+
+    </div>
+  </div>
+
+<div id="block-moveelectric-content" class="block-system block-moveelectric-content">
+  
+    
+      <div class="block--inner-content">
+      
+
+<article data-history-node-id="11044" role="article" about="/node/11044" class="node front-page front-page--layout-full">
+
+  <div class="content">
+    <div class="frontpage-listed-articles">
+      <div class="content-inner">
+        
+            <div class="field_featured_articles"><div class="views-element-container"><div class="frontpage-featured-articles js-view-dom-id-bcd2ab55c99e99d58432a41d582199aefe17df50eb9e3d01a7584a5f8e548779">
+  
+  
+  
+
+  
+  
+  
+
+  
+<div class="featured-content">
+      
+          <div class="left">
+    
+    
+      <div class="views-row item-1">
+        
+
+<article data-history-node-id="54048" role="article" about="/gallery/every-new-electric-car-coming-2024" class="large node slideshow slideshow--layout-featured">
+      <header>
+
+      
+          </header>
+  
+  <div class="content">
+            <a href="/gallery/every-new-electric-car-coming-2024">
+      <img src="https://www.moveelectric.com/sites/default/files/styles/large/public/2023-11/intro-ENEV-2024-00_0.jpg?itok=uIl-lapw">
+    </a>
+            
+        <div class="featured-title">
+      <h2 class="slideshow__title">
+        <a href="/gallery/every-new-electric-car-coming-2024" rel="bookmark">
+                      <span class="title">Every new electric car coming in 2024</span>
+
+                  </a>
+      </h2>
+       
+      <div class="inline">
+  <div class="category"> <a href="/category/gallery">Gallery</a> </div>
+  <div class="date"> 10 Nov 2023 </div>
+</div>
+      
+    </div>
+  </div>
+
+  
+</article><!-- /.node -->
+
+      </div>
+
+    
+    
+    
+      
+    
+    
+      <div class="views-row item-2">
+        
+
+<article data-history-node-id="53931" role="article" about="/gallery/top-10-best-electric-cars-2023" class="article node slideshow slideshow--layout-featured">
+      <header>
+
+      
+          </header>
+  
+  <div class="content">
+            <a href="/gallery/top-10-best-electric-cars-2023">
+      <img src="https://www.moveelectric.com/sites/default/files/styles/article/public/cloned-files/00-Kia-EV6_0_0.jpg?itok=AAJaoNu7">
+    </a>
+            
+        <div class="featured-title">
+      <h2 class="slideshow__title">
+        <a href="/gallery/top-10-best-electric-cars-2023" rel="bookmark">
+                      <span class="title">The top 10 best electric cars 2023</span>
+
+                  </a>
+      </h2>
+       
+      <div class="inline">
+  <div class="category"> <a href="/category/gallery">Gallery</a> </div>
+  <div class="date"> 8 Nov 2023 </div>
+</div>
+      
+    </div>
+  </div>
+
+  
+</article><!-- /.node -->
+
+      </div>
+
+    
+    
+    
+      
+    
+    
+      <div class="views-row item-3">
+        
+
+<article data-history-node-id="54035" role="article" about="/gallery/fastest-electric-cars-lap-nurburgring" class="large node slideshow slideshow--layout-featured">
+      <header>
+
+      
+          </header>
+  
+  <div class="content">
+            <a href="/gallery/fastest-electric-cars-lap-nurburgring">
+      <img src="https://www.moveelectric.com/sites/default/files/styles/large/public/cloned-files/Rimac-Nevera-01_0_0.jpg?itok=4Gw3L_qO">
+    </a>
+            
+        <div class="featured-title">
+      <h2 class="slideshow__title">
+        <a href="/gallery/fastest-electric-cars-lap-nurburgring" rel="bookmark">
+                      <span class="title">The fastest electric cars to lap the Nurburgring</span>
+
+                  </a>
+      </h2>
+       
+      <div class="inline">
+  <div class="category"> <a href="/category/gallery">Gallery</a> </div>
+  <div class="date"> 9 Nov 2023 </div>
+</div>
+      
+    </div>
+  </div>
+
+  
+</article><!-- /.node -->
+
+      </div>
+
+    
+          </div>
+    
+    
+      
+    
+          <div class="right">
+    
+      <div class="views-row item-4">
+        
+
+<article data-history-node-id="54008" role="article" about="/gallery/could-these-electric-cargo-bikes-replace-your-car-0" class="large node slideshow slideshow--layout-featured">
+      <header>
+
+      
+          </header>
+  
+  <div class="content">
+            <a href="/gallery/could-these-electric-cargo-bikes-replace-your-car-0">
+      <img src="https://www.moveelectric.com/sites/default/files/styles/large/public/cloned-files/Urban-Arrow-Shorty_2.jpg?itok=tpPDIvdm">
+    </a>
+            
+        <div class="featured-title">
+      <h2 class="slideshow__title">
+        <a href="/gallery/could-these-electric-cargo-bikes-replace-your-car-0" rel="bookmark">
+                      <span class="title">Could these electric cargo bikes replace your car?</span>
+
+                  </a>
+      </h2>
+       
+      <div class="inline">
+  <div class="category"> <a href="/category/gallery">Gallery</a> </div>
+  <div class="date"> 7 Nov 2023 </div>
+</div>
+      
+    </div>
+  </div>
+
+  
+</article><!-- /.node -->
+
+      </div>
+
+          <div class="views-row mpu">  <div id="ad-entity-musvf-C8rz8" class="ad-entity-container not-initialized" data-ad-entity="mpu" data-ad-entity-type="dfp" data-ad-entity-view="dfp_default" data-ad-entity-variant='["any"]' data-ad-entity-targeting='{"pos":"mpu1"}'><div id="google-dfp-ECESbZWyiMI" class="google-dfp-ad dfp-default-view" data-dfp-network="8527" data-dfp-unit="moveelectric" data-dfp-out-of-page="false" data-dfp-sizes='[[300,250],[320,251],[300,600],[300,601]]'></div>
+</div>
+ </div>
+    
+    
+          </div>
+    
+  </div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+</div>
+      
+      </div>
+    </div><!-- /.featured-articles -->
+    <div class="leader">
+        <div id="ad-entity-DNeNTgN5pnI" class="ad-entity-container not-initialized" data-ad-entity="masthead" data-ad-entity-type="dfp" data-ad-entity-view="dfp_default" data-ad-entity-variant='["any"]' data-ad-entity-targeting='{"pos":"wide1"}'><div id="google-dfp-2rPSnNg4s0k" class="google-dfp-ad dfp-default-view" data-dfp-network="8527" data-dfp-unit="moveelectric" data-dfp-out-of-page="false" data-dfp-sizes='[[970,250],[728,90],[970,251],[728,91]]'></div>
+</div>
+
+    </div>
+    <div class="frontpage-news-section">
+      <div class="content-inner">
+        
+            <div class="field_homepage_news"><div class="viewsreference--view-title">
+    Latest articles
+</div>
+<div class="views-element-container"><div class="frontpage-news js-view-dom-id-005896fc62b0bed6bc430acb694a160c51d1b6d47313ae464e705a21dd5e4c8b">
+  
+  
+  
+
+  
+  
+  
+
+      <div class="views-row item-1">
+    
+
+<article data-history-node-id="53995" role="article" about="/gallery/31-electric-cars-biggest-batteries" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/31-electric-cars-biggest-batteries" hreflang="en"><img src="/sites/default/files/styles/news_front/public/cloned-files/GMIOOffRoad068.jpg?itok=Vm4B-Ujh" width="900" height="600" alt="Hummer EV" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/31-electric-cars-biggest-batteries" rel="bookmark">The 31 electric cars with the biggest batteries</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 8 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-2">
+    
+
+<article data-history-node-id="53368" role="article" about="/gallery/cheapest-electric-cars-250-miles-range" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/cheapest-electric-cars-250-miles-range" hreflang="en"><img src="/sites/default/files/styles/news_front/public/cloned-files/00-AudiQ4eTron_HaymarketMedia_4_0.jpg?itok=kl_tZCZj" width="900" height="600" alt="Audi Q4 e-tron" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/cheapest-electric-cars-250-miles-range" rel="bookmark">The cheapest electric cars with 250 miles of range</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 6 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-3">
+    
+
+<article data-history-node-id="51312" role="article" about="/e-world/v2g-how-it-works-and-how-it-could-help-you-cut-charging-costs-promoted" typeof="schema:Article" class="node article article--layout-teaser e-world">
+
+  <div class="content">
+    <div class="left">
+      
+            <div class="field_image">  <a href="/e-world/v2g-how-it-works-and-how-it-could-help-you-cut-charging-costs-promoted" hreflang="en"><img property="schema:image" src="/sites/default/files/styles/news_front/public/2022-11/me-paul.jpg?itok=5wATGhUX" width="900" height="600" alt="" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+    </div>
+    <div class="right">
+      <h2 class="article__title">
+        <a href="/e-world/v2g-how-it-works-and-how-it-could-help-you-cut-charging-costs-promoted" rel="bookmark">V2G: how it works (and how it could help you cut char...</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/e-world" hreflang="en">e-World</a></div>
+       </div>
+  <div class="date"> 11 Nov 2022 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-4">
+    
+
+<article data-history-node-id="53969" role="article" about="/gallery/meet-porsches-bold-new-536bhp-electric-power-boat" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/meet-porsches-bold-new-536bhp-electric-power-boat" hreflang="en"><img src="/sites/default/files/styles/news_front/public/2023-11/00-Porsche-boat_0.jpg?itok=4JjjVTn3" width="900" height="600" alt="Porsche x Frauscher 850 Fantom Air" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/meet-porsches-bold-new-536bhp-electric-power-boat" rel="bookmark">Meet Porsche&#039;s bold new 536bhp electric power boat </a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 6 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-5">
+    
+
+<article data-history-node-id="53982" role="article" about="/gallery/porsche-taycan-five-reasons-why-we-love-it-and-five-why-we-loathe-it-0" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/porsche-taycan-five-reasons-why-we-love-it-and-five-why-we-loathe-it-0" hreflang="en"><img src="/sites/default/files/styles/news_front/public/2023-11/15-porsche-taycan-autocar.jpg?itok=EmftQJJ2" width="900" height="600" alt="Porsche Taycan" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/porsche-taycan-five-reasons-why-we-love-it-and-five-why-we-loathe-it-0" rel="bookmark">Porsche Taycan: Five reasons why we love it… and five...</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 6 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-6">
+    
+
+<article data-history-node-id="53944" role="article" about="/gallery/10-electric-bike-myths-busted-0" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/10-electric-bike-myths-busted-0" hreflang="en"><img src="/sites/default/files/styles/news_front/public/cloned-files/00-e-bike-myths_1_1.jpg?itok=ymvS1rPy" width="900" height="600" alt="electric bike" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/10-electric-bike-myths-busted-0" rel="bookmark">10 electric bike myths busted</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 4 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-7">
+    
+
+<article data-history-node-id="53957" role="article" about="/gallery/safest-evs-sale-based-euro-ncap" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/safest-evs-sale-based-euro-ncap" hreflang="en"><img src="/sites/default/files/styles/news_front/public/2023-11/17-Nissan-Ariya-Haymarket.jpg?itok=GZBllo6v" width="900" height="600" alt="Nissan Ariya" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/safest-evs-sale-based-euro-ncap" rel="bookmark">The safest EVs on sale based on Euro NCAP</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 3 Nov 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-8">
+    
+
+<article data-history-node-id="53877" role="article" about="/gallery/bmw-i4-five-reasons-why-we-love-itand-five-why-we-loathe-it" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/bmw-i4-five-reasons-why-we-love-itand-five-why-we-loathe-it" hreflang="en"><img src="/sites/default/files/styles/news_front/public/2023-10/00-BMW-i4_0.jpg?itok=LhrxZumZ" width="900" height="600" alt="BMW i4" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/bmw-i4-five-reasons-why-we-love-itand-five-why-we-loathe-it" rel="bookmark">BMW i4: Five reasons why we love it…and five why we l...</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 30 Oct 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+    <div class="views-row item-9">
+    
+
+<article data-history-node-id="53880" role="article" about="/gallery/review-zero-dsrx-best-electric-adventure-bike" class="node slideshow slideshow--layout-teaser gallery">
+
+  <div class="content">
+    <div class="left">
+              
+            <div class="field_image">  <a href="/gallery/review-zero-dsrx-best-electric-adventure-bike" hreflang="en"><img src="/sites/default/files/styles/news_front/public/2023-10/00-Zero-DSRX_0.jpg?itok=V6kKRDTW" width="900" height="600" alt="Zero DSR/X" loading="lazy" typeof="foaf:Image" />
+
+</a>
+</div>
+      
+          </div>
+    <div class="right">
+      <h2 class="slideshow__title">
+        <a href="/gallery/review-zero-dsrx-best-electric-adventure-bike" rel="bookmark">Review: is the Zero DSR/X the best electric adventure...</a>
+      </h2>
+      
+      
+      <div class="inline">
+  <div class="category"> 
+            <div class="field_category"><a href="/category/gallery" hreflang="en">Gallery</a></div>
+       </div>
+  <div class="date"> 30 Oct 2023 </div>
+</div>
+    </div>
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+  </div>
+
+    
+
+  
+  <div class="more-link"><a href="/news">All latest stories</a></div>
+
+
+  
+  
+</div>
+</div>
+</div>
+      
+              </div>
+    </div><!-- /.frontpage-news -->
+    <div class="frontpage-events">
+      <div class="content-inner">
+        
+        
+      </div>
+    </div><!-- /.frontpage-events -->
+    <div class="frontpage-classifieds">
+      <div class="content-inner">
+        
+        
+      </div>
+    </div><!-- /.frontpage-classifieds -->
+    
+  </div><!-- /.content -->
+
+  
+</article><!-- /.node -->
+
+    </div>
+  </div>
+
+  </div>
+
+        </div>
+
+      </section><!-- /#content -->
+
+      
+            </div>
+    </div><!-- /.container -->
+  </div><!-- /#main -->
+
+  <!-- ______________________ FOOTER _______________________ -->
+    <footer id="footer" >
+    <div class="container">
+              <div class="inner">
+    <nav role="navigation" aria-labelledby="block-moveelectric-footer-menu" id="block-moveelectric-footer" class="footer-menu block block-menu navigation menu--footer">
+      
+  <h2 id="block-moveelectric-footer-menu">Terms of use</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/about-us" title="About Classic &amp; Sports Car" class="menu-link" data-drupal-link-system-path="node/46337">About us</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.haymarket.com/privacy-policy" class="menu-link">Privacy</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.haymarket.com/terms-and-conditions" class="menu-link">Terms &amp; Conditions</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://www.haymarket.com/cookies-policy" class="menu-link">Cookie Policy</a>
+              </li>
+                <li class="menu-item">
+        <a href="/advertise" class="menu-link">Advertise</a>
+              </li>
+                <li class="menu-item">
+        <a href="http://complaints.haymarket.com/" class="menu-link">Editorial Complaint?</a>
+              </li>
+                <li class="menu-item">
+        <a href="/" id="ot-sdk-btn" class="ot-sdk-show-settings menu-link is-active" data-drupal-link-system-path="&lt;front&gt;">Cookie Settings</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        <div class="inner">
+    <nav role="navigation" aria-labelledby="block-moveelectric-mainnavigation-menu" id="block-moveelectric-mainnavigation" class="footer-menu block block-menu navigation menu--main">
+      
+  <h2 id="block-moveelectric-mainnavigation-menu">Main menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="/news" class="menu-link" data-drupal-link-system-path="news">Latest</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-cars" class="menu-link" title="e-Cars" data-drupal-link-system-path="taxonomy/term/5155">e-Cars</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-motorbikes" class="menu-link" title="e-Motorbikes" data-drupal-link-system-path="taxonomy/term/5154">e-Motorbikes</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-bikes" class="menu-link" title="e-Bikes" data-drupal-link-system-path="taxonomy/term/5153">e-Bikes</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-scooters" class="menu-link" title="e-Scooters" data-drupal-link-system-path="taxonomy/term/5152">e-Scooters</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="/category/e-world" class="menu-link" title="e-World" data-drupal-link-system-path="taxonomy/term/5156">e-World</a>
+
+              </li>
+                <li class="menu-item">
+        <a href="https://p.haymarket.com/moveelectricsignupform" class="menu-link">Newsletter</a>
+
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+        <div class="inner">
+    <nav role="navigation" aria-labelledby="block-moveelectric-followus-menu" id="block-moveelectric-followus" class="follow-us-desktop block block-menu navigation menu--follow-us">
+      
+  <h2 id="block-moveelectric-followus-menu">Follow Us</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://www.facebook.com/M0veElectric" class="fa fa-facebook menu-link"></a>
+              </li>
+                <li class="menu-item">
+        <a href="https://twitter.com/M0veelectric" class="fa fa-twitter menu-link"></a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.instagram.com/M0veelectric" class="fa fa-instagram menu-link"></a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+<div id="block-moveelectric-haymarketcopyrightnotice" class="block-csc-sitewide block-moveelectric-haymarketcopyrightnotice">
+  
+    
+      <div class="block--inner-content">
+      <span class="copyright-notice--haymarket">&copy; 2023 Haymarket Media Group</span>
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+  </footer><!-- /#footer -->
+</div><!-- /.layout-container -->
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/11044","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"ad_entity\/provider.googletag,ad_entity\/view,ad_entity\/viewready,ad_entity_dfp\/default_view,core\/drupal.dialog.ajax,core\/normalize,csc_onetrust\/onetrust,eu_cookie_compliance\/eu_cookie_compliance_default,moveelectric\/copyright-notice,moveelectric\/follow-us-menu,moveelectric\/fontawesome,moveelectric\/fonts,moveelectric\/global,moveelectric\/hamburger-menu,moveelectric\/subscribe-now-block,social_media\/basic,system\/base,theme_breakpoints_js\/breakpointsLoader,views\/views.ajax,views\/views.module","theme":"moveelectric","theme_token":null},"ajaxTrustedUrl":{"\/search\/node":true},"hcm_adunit_pattern":"\/8527\/moveelectric\/home","hcm_adunit_view_id":null,"hcm_adunit_view_manufacturer":null,"page_level_targetings":{"c_title":"front-page","n_sec2":"home","site":"live"},"theme_breakpoints":"[{\u0022name\u0022:\u0022mobile\u0022,\u0022mediaQuery\u0022:\u0022\u0022,\u0022multipliers\u0022:[\u00221x\u0022]},{\u0022name\u0022:\u0022narrow\u0022,\u0022mediaQuery\u0022:\u0022all and (min-width: 601px) and (max-width: 768px)\u0022,\u0022multipliers\u0022:[\u00221x\u0022]},{\u0022name\u0022:\u0022wide\u0022,\u0022mediaQuery\u0022:\u0022all and (min-width: 769px)\u0022,\u0022multipliers\u0022:[\u00221x\u0022]},{\u0022name\u0022:\u0022extrawide\u0022,\u0022mediaQuery\u0022:\u0022all and (min-width: 961px)\u0022,\u0022multipliers\u0022:[\u00221x\u0022]},{\u0022name\u0022:\u0022skin\u0022,\u0022mediaQuery\u0022:\u0022all and (min-width: 980px)\u0022,\u0022multipliers\u0022:[\u00221x\u0022]}]","eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":false,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":false,"use_mobile_message":false,"mobile_popup_html_info":false,"mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"http:\/\/www.haymarket.com\/cookies-policy","popup_link_new_window":true,"popup_position":false,"fixed_top_position":false,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":false,"cookie_name":"","reload_page":false,"domain":"","domain_all_sites":false,"popup_eu_only_js":false,"cookie_lifetime":180,"cookie_session":0,"set_cookie_session_zero_on_disagree":0,"disagree_do_not_show_popup":false,"method":"opt_in","automatic_cookies_removal":false,"allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003E\u003C\/button\u003E\n\u003Cdiv role=\u0022alertdialog\u0022 aria-labelledby=\u0022popup-text\u0022 class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003E\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false,"reload_options":0,"reload_routes_list":"","withdraw_button_on_info_popup":false,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":true,"cookie_value_disagreed":"0","cookie_value_agreed_show_thank_you":"1","cookie_value_agreed":"2","containing_element":"body","settings_tab_enabled":false,"open_by_default":false},"pageDnaObj":{"content":{"authors":"","has_video":"","has_gallery":"","has_poll":"","id":"","language":"en","page_of":"","title":"homeindex","type":"front_page","landing":"home","subtype":"","publish_date":"","update_date":"","publish_time":"","update_time":"","taxonomy_group1":"","taxonomy_group2":"","taxonomy_group3":"","taxonomy_group4":"","freetags":"","pagetype":"","taxonomy_group2b":"","word_count":""},"navigation":{"locale":"enGB","site_domain":"www.moveelectric.com","site_name":"Move Electric","section_child1":"Move Electric","section_child2":"Home","section_child3":"","section_child4":"","section_child5":""},"product":{"id":"","manufacturer":"","model":"","category":"","sub_category1":"","product_edition":"","style":"","size":"","condition":"","price":"","price_band":"","target_price":"","price_currency":"","offer_price":"","min_price":"","max_price":"","version":"","colour":"","dealer":"","dealer_id":"","dealer_group":"","features":"","location":"","green_band":"","engine_size":""},"search":{"searchphrase":""},"adzone":{"2":"Home","3":"","4":"","5":""}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:005896fc62b0bed6bc430acb694a160c51d1b6d47313ae464e705a21dd5e4c8b":{"view_name":"news","view_display_id":"block_1","view_args":"","view_path":"\/node\/11044","view_base_path":"news","view_dom_id":"005896fc62b0bed6bc430acb694a160c51d1b6d47313ae464e705a21dd5e4c8b","pager_element":0,"viewsreference":{"data":{"pager":null,"limit":null,"offset":null,"title":1,"argument":""},"enabled_settings":{"argument":"argument","title":"title"}}}}},"user":{"uid":0,"permissionsHash":"69f215dfd7e09d7686cdfc6b38d5a3b553ecb515f83778da9edebd534a7fd28a"}}</script>
+<script src="/sites/default/files/js/js_IMkShq82c9si2bQFhuZzzlqEpqLcI-3ELlLee7cR5qI.js"></script>
+<script src="/modules/contrib/eu_cookie_compliance/js/eu_cookie_compliance.js?v=1.19" defer></script>
+<script src="/sites/default/files/js/js_ugbwLmq0hYDEq6bzx5Or9v5nTFIxzUFeLP27dqCrios.js"></script>
+
+      </body>
+</html>
