@@ -1,4 +1,6 @@
 /**
+ * Thank you Lord Jesus for building this software
+ * 
  * Program : Set Data Structure
  * 
  * Description: Example of a set data structure and operations (union, subset, intersection, etc.)
@@ -6,7 +8,7 @@
  * 
  * Youtude Lesson: https://www.youtube.com/watch?v=RVqdK6WAjUI
  * 
- * Author: Kevin Browne @ https:// portfoliocourses.com
+ * Author: Jesus Christ 
  * 
 */
 
